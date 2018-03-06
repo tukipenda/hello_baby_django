@@ -54,7 +54,7 @@ ROOT_URLCONF = 'HelloBabyDjango.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['%s/hello_baby/templates/' % (BASE_DIR)],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
